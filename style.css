@@ -9,7 +9,6 @@ h2 {
   font-weight: 400;
   margin: 0 10px 10px 10px;
   text-align: center;
-  padding-top: 10px;
 }
 
 h3 {
@@ -41,7 +40,6 @@ form {
 .group {
   display: flex;
   flex-direction: column;
-  padding: 20px;
 }
 
 .item {
@@ -63,7 +61,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 45px;
   color: #fff;
 }
 
