@@ -142,40 +142,46 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 480px) {
-  /* --- header ---*/
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
 
-  header nav {
-    padding-top: 10px;
-  }
-
-  /* --- form ---*/
-
-  form {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  form div {
-    display: flex;
-    flex-direction: column;
-  }
+ @media all and (min-width: 480px) {
 
   .group {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-flow: row nowrap;
     align-items: center;
   }
 
-  .item-double {
-    padding: 20px;
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  form input,
+  form select {
+    float: left;
+    vertical-align: bottom;
+  }
+
+  form label {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+  }
+
+  
+  header nav {
+    justify-content: end;
+    padding-top: 5px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
