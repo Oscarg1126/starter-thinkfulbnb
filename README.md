@@ -1,4 +1,3 @@
-# starter-thinkfulbnb
 # Thinkfulbnb
 
-Thinkful bnb is a webiste developed for a mock user experience that provides examples of an interface used to temporarily rent places.
+This is a bnb type website that provides temporary rent vacation places for many locations! This is a website developed for a mock user experience that provides examples of an interface.
