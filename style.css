@@ -91,11 +91,6 @@ header nav {
   min-width: 0;
 }
 
-header nav ul li a:hover {
-  color: #bdbdbd;
-  text-decoration: none;
-}
-
 header nav ul {
   display: flex;
 }
