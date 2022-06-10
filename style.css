@@ -188,7 +188,8 @@ footer p {
     justify-content: center;
     align-items: stretch;
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
+   align-content:space-between;
   }
 
   main section div {
